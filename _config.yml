@@ -4,9 +4,6 @@ theme: just-the-docs
 
 url: https://luca-alessi.github.io/practical-ai-course
 
-aux_links:
-  Template Repository: https://github.com/Luca-Alessi/practical-ai-course
-
 # Enable the sidebar navigation
 nav_order: 1
 
