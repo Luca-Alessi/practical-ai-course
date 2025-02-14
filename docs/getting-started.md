@@ -18,8 +18,9 @@ If you're using **Google Colab**, no installation is required! Just open Colab a
 ## API Key Setup  
 Follow these steps to set up your **Gemini AI API key**:  
 
-1. Sign up and generate an API key: [Gemini AI](https://ai.google.dev/)  
-2. Store your key securely using an **.env file**:  
+1. Sign up and generate an API key: [Gemini AI](https://ai.google.dev/)
+2. If using Google Colab, follow [these instructions](https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Authentication.ipynb).
+3. If developing locally, [store your key](https://www.geeksforgeeks.org/how-to-create-and-use-env-files-in-python/) securely using an **.env file**:  
 
 ```python
 from dotenv import load_dotenv
