@@ -6,3 +6,23 @@ url: https://luca-alessi.github.io/practical-ai-course
 
 aux_links:
   Template Repository: https://github.com/Luca-Alessi/practical-ai-course
+
+# Enable the sidebar navigation
+nav_order: 1
+
+# Define page structure
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Sidebar structure
+nav:
+  - title: "Getting Started"
+    url: /getting-started
+  - title: "Connecting to Gemini AI API"
+    url: /connecting-to-api
+  - title: "Building Your Dashboard"
+    url: /building-dashboard
+  - title: "Python Refreshers"
+    url: /python-refreshers
