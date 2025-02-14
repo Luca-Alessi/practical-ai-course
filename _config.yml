@@ -10,14 +10,10 @@ aux_links:
 # Enable the sidebar navigation
 nav_order: 1
 
-# Define page structure
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-
 # Sidebar structure
 nav:
+  - title: "Home"
+    url: /
   - title: "Getting Started"
     url: /getting-started
   - title: "Connecting to Gemini AI API"
