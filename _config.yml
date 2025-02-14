@@ -6,12 +6,37 @@ url: https://luca-alessi.github.io/practical-ai-course
 
 nav_enabled: true
 
-nav:
-  - title: "Getting Started"
-    url: "/practical-ai-course/getting-started/"
-  - title: "Connecting to Gemini AI API"
-    url: "/practical-ai-course/connecting-to-api/"
-  - title: "Building Your Dashboard"
-    url: "/practical-ai-course/building-dashboard/"
-  - title: "Python Refreshers"
-    url: "/practical-ai-course/python-refreshers/"
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
