@@ -4,18 +4,4 @@ theme: just-the-docs
 
 url: https://luca-alessi.github.io/practical-ai-course
 
-# Enable the sidebar navigation
-nav_order: 1
-
-# Sidebar structure
-nav:
-  - title: "Home"
-    url: /
-  - title: "Getting Started"
-    url: /getting-started
-  - title: "Connecting to Gemini AI API"
-    url: /connecting-to-api
-  - title: "Building Your Dashboard"
-    url: /building-dashboard
-  - title: "Python Refreshers"
-    url: /python-refreshers
+nav_enabled: true
