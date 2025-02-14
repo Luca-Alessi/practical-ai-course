@@ -17,3 +17,12 @@ df.head()  # Show first 5 rows
 * [Pandas](https://pandas.pydata.org/docs/)
 * [Matplotlib](https://matplotlib.org/)
 * [Seaborn](https://seaborn.pydata.org/)
+
+## Creating Basic Data Visualizations
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.countplot(x='species', hue='height', data=df)
+plt.title('Cats vs. Dog Height')
+plt.show()
