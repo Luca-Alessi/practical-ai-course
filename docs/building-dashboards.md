@@ -26,3 +26,4 @@ import matplotlib.pyplot as plt
 sns.countplot(x='species', hue='height', data=df)
 plt.title('Cats vs. Dog Height')
 plt.show()
+```
