@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-Welcome to the official course resource hub! Right now, you’ll find essential materials, links and links to support your learning. But we’re just getting started—over time, we’ll be adding FAQs, troubleshooting guides, bonus content, and more based on your feedback. Check back often, and if you have any questions or suggestions, let us know!
+test1Welcome to the official course resource hub! Right now, you’ll find essential materials, links and links to support your learning. But we’re just getting started—over time, we’ll be adding FAQs, troubleshooting guides, bonus content, and more based on your feedback. Check back often, and if you have any questions or suggestions, let us know!
 
 alessi.course@ ... gmail
 
