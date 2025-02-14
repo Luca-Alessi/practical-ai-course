@@ -5,3 +5,13 @@ theme: just-the-docs
 url: https://luca-alessi.github.io/practical-ai-course
 
 nav_enabled: true
+
+nav:
+  - title: "Getting Started"
+    url: "/practical-ai-course/getting-started/"
+  - title: "Connecting to Gemini AI API"
+    url: "/practical-ai-course/connecting-to-api/"
+  - title: "Building Your Dashboard"
+    url: "/practical-ai-course/building-dashboard/"
+  - title: "Python Refreshers"
+    url: "/practical-ai-course/python-refreshers/"
